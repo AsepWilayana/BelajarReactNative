@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {View, ScrollView} from 'react-native';
+import BasicJavascript from './pages/BasicJavascript';
 import Communication from './pages/Communication';
 import Flexbox from './pages/FlexBox';
 import Position from './pages/Position';
@@ -24,7 +25,8 @@ const App = () => {
         <Position /> */}
         {/* <PropsDinamis /> */}
         {/* <StateDinamis /> */}
-        <Communication />
+        {/* <Communication /> */}
+        <BasicJavascript />
       </ScrollView>
     </View>
   );
