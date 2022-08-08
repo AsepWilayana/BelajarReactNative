@@ -6,6 +6,7 @@ import Flexbox from './pages/FlexBox';
 import Position from './pages/Position';
 import PropsDinamis from './pages/PropsDinamis';
 import ReactNativeSvg from './pages/ReactNativeSvg';
+import CallAPIVanilla from './pages/CallAPIVanilla';
 import SampleComponent from './pages/SampleComponent';
 import StateDinamis from './pages/StateDinamis';
 import StylingComponent from './pages/StylingComponent';
@@ -28,7 +29,8 @@ const App = () => {
         {/* <StateDinamis /> */}
         {/* <Communication /> */}
         {/* <BasicJavascript /> */}
-        <ReactNativeSvg />
+        {/* <ReactNativeSvg /> */}
+        <CallAPIVanilla />
       </ScrollView>
     </View>
   );
